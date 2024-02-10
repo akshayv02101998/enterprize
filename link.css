@@ -1,0 +1,315 @@
+  
+        *{
+            padding: 0px;
+            margin: 0px;
+            box-sizing: border-box;
+        
+        }
+        body{
+           
+        background-color: #f0f2f5;
+        
+          
+        
+        }
+      
+        header{
+            position:fixed;
+            /* position: ; */
+            vertical-align: baseline;
+        }
+        header .menu_block{
+            /* position:static; */
+            /* vertical-align: baseline; */
+        }
+        .menu_block{
+            
+            background-color:white;
+            height: 60px;
+            width:100%;
+          box-shadow: 0px 2px 6px 0px black;
+        
+        }
+       
+        .menu_block .logo{
+            font-size:18px;
+           color:white;
+           margin-left:10px;
+          padding-top:5px;
+          padding-left: 10px;
+          position: absolute;
+          font-family: "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+         text-transform: uppercase;
+        }
+        .menu_block .menu{
+            margin-left: 1036px;
+           display: flex;
+          
+        }
+        /* .menu_block .menu p{
+            margi
+            color:white;
+            animation-name: welcome;
+            animation-duration: 10s;
+        } */
+        /* @keyframes welcome{
+            0%   {color:red ;}
+            25%  {color:blue ;}
+            50%  {color:navy ;} 
+            100% {color:yellow ;} 
+            
+            
+        } */
+        .menu_block .menu li{
+            
+            font-size:18px;
+            color:navy;
+            display: inline-block;
+            padding: 20px;
+        padding-top: 10px;
+        text-transform: uppercase;
+        font-family: "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+        
+        }
+        .menu_block .menu li a{
+            
+            color:navy;
+            text-decoration: none;
+            
+        }
+        header h3 {
+            display: inline-block;   
+            text-transform: uppercase;
+         margin-left: 300px;
+         margin-top: 200px;
+        }
+        header h3 a{
+            text-decoration:none;
+            color: navy;
+            font-family: "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+            text-transform: uppercase;
+        }
+        header h1{
+            color:white;
+            margin-left: 300px;
+            text-transform: uppercase;
+            font-family: "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+        }
+        
+        /* a:link{
+            color:pink;
+        }
+        a:visited{
+            color:white;
+        }
+        a:active{
+            color:yellow;
+        } */
+        header .menu_block .menu li a:hover{
+            color:palevioletred;
+            
+            text-decoration: underline;
+        }
+         /* h3 a:hover{
+            color:yellow;
+          text-decoration: underline;
+            
+        } */
+        header .menu_block .logo img{
+            border-radius: 25px;
+            
+           
+        }
+        
+        .container{
+           margin-left: 20px;
+            margin-top:180px;
+            font-family: Futura;
+        font-style: italic;
+        /* width: 800px; */
+        display: inline-block;
+        
+        
+        
+        }
+        .container h1{
+            color:navy;
+            font-size: 60px;
+            margin-top: 20px;
+        }
+        .container h3{
+            color:navy;
+            font-weight: bold;
+            margin-top:30px;
+        }
+        .container h5{
+            color:rgba(0, 0, 128,0.5);
+            margin-top:30px;
+        }
+        .container p{
+         font-family: Futura;
+         margin-top: 30px;
+        }
+.container h4{
+    font-family: Futura;
+    margin-top: 30px;
+    font-size: 16px;
+}
+        .box{
+            background-color:rgba(255, 150, 113,0.7);
+            width:100%;
+        }
+        .box1{
+            background-color:rgba(255, 150, 113,0.5);
+            height: 40px;
+            /* position:static; */
+        
+        }
+        .box p{
+            color:navy;
+            text-align: center;
+            padding: 5px;
+            font-size: 25px;
+            background-size: cover;
+        }
+        .box1 p{
+            font-size: 10px;
+          margin-left:100px ;
+          /* padding: 10px; */
+        }
+        span {
+           margin-left: 400px;
+           font-size: 20px; 
+           padding: 2px 0px;
+        }
+        span:hover{
+            color:navy;
+        }
+        .box1 p:hover{
+            color:navy;
+        }
+        /* .container .contact{
+            margin-left:900px;
+         margin-bottom:200px;
+        } */
+      
+    .last{
+        background-color: rgba(209  , 208, 207,3.5);
+        width:100%;
+        height: 100%;
+        
+    }
+    .last a{
+        text-decoration: none;
+        /* display: flex; */
+        margin-top: 20px;
+    
+    }
+    .last li{
+        list-style: none;
+        display: inline-block;
+        margin-left:100px;
+        padding: 20px;
+    }
+
+    .team .nitin{
+        margin-top: 20px;
+        color:white;
+        text-align: center;
+        /* font-size: 40px; */
+    }
+    .team p{
+        color:navy;
+        text-align: center;
+        font-family: Futura;
+        
+    }
+    .team h2{
+        text-align: center;
+        color:white;
+        font-size: 50px;
+        margin-top: 20px;
+        margin-bottom: 0%;
+    }
+    .team h2:hover{
+        text-decoration: underline;
+        color:blue;
+    }
+  .end{
+    background-color: rgba(209  , 208, 207,3.5);
+  
+}
+header{
+    width:100vw;
+}
+hr{
+    color:white;
+    margin:0%;
+    padding: 0%;
+}
+.end p{
+   padding:10px;
+   text-align: center;
+   
+ }
+ img{
+   
+ }
+
+.div span{
+    margin-left:500px;
+}
+img{
+    margin:10px;
+    
+}
+ .last  ul li a{
+    color:navy;
+    font-size: 20px;
+}
+.last  ul li a:hover{
+    color:rgba(255, 150, 113,0.7);
+    text-decoration: underline;
+}
+.contact .btn{
+    color:white;
+    background-color: blue;
+    width:150px;
+    border-radius: 5px;
+    padding:2px;
+    margin-top:10px;
+    
+}
+.container select{
+    /* margin-top:10px; */
+    width:190px;
+   
+}
+.container label{
+    margin-top:10px;
+}
+.pic .card1{
+    width:200px;
+    height: 350px;
+    margin-left: 400px;
+    margin-bottom: 50px;
+}
+.pic .img{
+    width:190px;
+    height: 200px;
+    border-radius: 50%;
+    
+}
+.pic h1{
+    text-align: center;
+    margin-top: 30px;
+}
+.pic .title{
+    margin-left: 50px;
+
+}
+
+
+input{
+    margin:50px;
+}
